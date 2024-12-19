@@ -6,11 +6,12 @@
 <head runat="server">
     <title></title>
 </head>
-<body style="height: 21px">
+<body style="height: 74px">
     <form id="form1" runat="server">
         <div>
             This is demo or test page to check git repo
         </div>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="clik me..!!!" />
     </form>
 </body>
 </html>
