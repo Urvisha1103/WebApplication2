@@ -26,7 +26,8 @@
             </asp:DropDownList>
         </div>
         <div>
-            <asp:Button ID="Button1" runat="server" Text="Calculate" OnClick="Button1_Click" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" Text="Calculate" OnClick="Button1_Click" Font-Bold="True" />
         </div>
         <div>
             <asp:Label ID="ResultLabel" runat="server" Text="Result: " Font-Bold="True"></asp:Label>
